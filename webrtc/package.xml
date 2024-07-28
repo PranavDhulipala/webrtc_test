@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>webrtc</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="pranavdhulipala@gmail.com">root</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>git</buildtool_depend>
+
+  <depend>ninja-build</depend>
+  <depend>build-essential</depend>
+  <depend>libssl-dev</depend>
+  <depend>libboost-all-dev</depend>
+  <depend>libglib2.0-dev</depend>
+  <depend>libgtk-3-dev</depend>
+  <depend>libpulse-dev</depend>
+  <depend>libasound2-dev</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
